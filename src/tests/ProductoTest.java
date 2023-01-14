@@ -1,4 +1,4 @@
-	package main.java.org.example;
+	package tests;
 
 	import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,6 +14,12 @@
 	import org.junit.jupiter.api.AfterAll;
 	import org.junit.jupiter.api.BeforeAll;
 	import org.junit.jupiter.api.Test;
+
+import main.java.org.example.Cine;
+import main.java.org.example.Games;
+import main.java.org.example.Gestion;
+import main.java.org.example.Musica;
+import main.java.org.example.Producto;
 
 	public class ProductoTest {
 		Producto disco1 = new Musica("Mayhem", 18.53, 6, true, "Black Metal");
